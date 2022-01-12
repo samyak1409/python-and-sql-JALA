@@ -5,7 +5,10 @@ from typing import Any
 
 
 def insert(arr: list, x: Any, pos: int) -> None:
-    pass
+    arr.append(None)  # adding a placeholder
+    for i in range(len(arr)-pos):  # shifting values to the right
+        arr[-i-1] = arr[-i-2]
+    arr[pos-1] = x  # inserting value
 
 
 a = [1, 2, 3, 4]
