@@ -22,4 +22,4 @@ print(arithmetic(num1=14, op='-', num2=7))
 print(arithmetic(num1=14, op='*', num2=7))
 print(arithmetic(num1=14, op='/', num2=7))
 print(arithmetic(num1=14, op='%', num2=7))
-# print(arithmetic(num1=14, op='', num2=7))  # -> error
+# print(arithmetic(num1=14, op='', num2=7))  # Exception: Unknown operation

@@ -16,4 +16,4 @@ def unary(num: int, op: str) -> int:
 
 print(unary(num=21, op='++'))
 print(unary(num=21, op='--'))
-# print(unary(num=0, op=''))  # -> error
+# print(unary(num=0, op=''))  # Exception: Unknown operation
