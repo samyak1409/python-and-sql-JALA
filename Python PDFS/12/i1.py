@@ -27,4 +27,4 @@ if __name__ == '__main__':
     Class1.from_double_arg(arg1='Double', arg2='Argument')  # Double Argument Constructor
 
 
-# this file has been renamed to i1 because it is being imported in files '2.py' and python doesn't allow number (i.e. 1) as an identifier
+# this file has been renamed to i1 because it is being imported in files '2.py' and '4.py' and python doesn't allow number (i.e. 1) as an identifier

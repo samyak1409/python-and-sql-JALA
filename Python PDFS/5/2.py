@@ -1,12 +1,12 @@
 # 2. Define a static variable and access that through a instance.
 
 
-class Class1:
+class Class:
 
     static_var = '21'
 
     # def __init__(self): pass
 
 
-instance = Class1()
+instance = Class()
 print(instance.static_var)  # 21

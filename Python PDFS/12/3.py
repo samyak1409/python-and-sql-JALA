@@ -17,5 +17,5 @@ class Class3:
 instance = Class3(1, 2, 3)
 
 print(instance.public)  # -> easily be accessed
-print(instance._protected)  # -> gives warning (Access to a protected member _protected of a class)
-print(instance.__private)  # -> gives error (AttributeError: 'Class3' object has no attribute '__private')
+# print(instance._protected)  # -> gives warning (Access to a protected member _protected of a class)
+# print(instance.__private)  # -> gives error (AttributeError: 'Class3' object has no attribute '__private')

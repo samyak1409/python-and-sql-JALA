@@ -3,7 +3,7 @@
 
 
 def func() -> None:
-    var = 'local'
+    var = 'local'  # (python doesn't promote this)
     print(var)
 
 
