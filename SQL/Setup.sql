@@ -1,0 +1,38 @@
+# CREATES DATABASE AND TABLES
+
+/*
+CREATE DATABASE jala; USE jala;
+
+
+CREATE TABLE salespeople(snum INT(5) PRIMARY KEY, sname CHAR(10), city CHAR(20), comm DECIMAL(8,3));
+
+INSERT INTO salespeople VALUES (1001, 'Peel', 'London', 0.12);
+INSERT INTO salespeople VALUES (1002, 'Serres', 'San Jose', 0.13);
+INSERT INTO salespeople VALUES (1004, 'Motika', 'London', 0.11);
+INSERT INTO salespeople VALUES (1007, 'Rafkin', 'Barcelona', 0.15);
+INSERT INTO salespeople VALUES (1003, 'Axelrod', 'New York', 0.1);
+
+
+CREATE TABLE cust(cnum INT(5) PRIMARY KEY, cname CHAR(20), city CHAR(20), rating INT(3), snum INT(4));
+
+INSERT INTO cust VALUES (2001, 'Hoffman', 'London', 100, 1001);
+INSERT INTO cust VALUES (2002, 'Giovanne', 'Rome', 200, 1003);
+INSERT INTO cust VALUES (2003, 'Liu', 'San Jose', 300, 1002);
+INSERT INTO cust VALUES (2004, 'Grass', 'Brelin', 100, 1002);
+INSERT INTO cust VALUES (2006, 'Clemens', 'London', 300, 1007);
+INSERT INTO cust VALUES (2007, 'Pereia', 'Rome', 100, 1004);
+
+
+CREATE TABLE orders(onum INT(5) PRIMARY KEY, amt DECIMAL(7, 2), odate Date, cnum INT(4), snum INT(4));
+
+INSERT INTO orders VALUES (3001, 18.69, '1994-10-03', 2008, 1007);
+INSERT INTO orders VALUES (3003, 767.19, '1994-10-03', 2001, 1001);
+INSERT INTO orders VALUES (3002, 1900.10, '1994-10-03', 2007, 1004);
+INSERT INTO orders VALUES (3005, 5160.45, '1994-10-03', 2003, 1002);
+INSERT INTO orders VALUES (3006, 1098.16, '1994-10-04', 2008, 1007);
+INSERT INTO orders VALUES (3009, 1713.23, '1994-10-04', 2002, 1003);
+INSERT INTO orders VALUES (3007, 75.75, '1994-10-05', 2006, 1002);
+INSERT INTO orders VALUES (3008, 4723.00, '1994-10-05', 2006, 1001);
+INSERT INTO orders VALUES (3010, 1309.95, '1994-10-06', 2004, 1002);
+INSERT INTO orders VALUES (3011, 9891.88, '1994-10-06', 2006, 1001);
+*/
